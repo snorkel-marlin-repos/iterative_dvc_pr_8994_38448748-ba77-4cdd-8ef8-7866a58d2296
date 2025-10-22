@@ -106,7 +106,7 @@ tests = [
     'pywin32>=225; sys_platform == "win32"', # optional test dependency
 ]
 webdav = ["dvc-webdav==2.19.1"]
-webhdfs = ["dvc-webhdfs==2.19"]
+webhdfs = ["dvc-webhdfs==3.1.0"]
 webhdfs_kerberos = ["dvc-webhdfs[kerberos]==2.19"]
 [project.urls]
 Documentation = "https://dvc.org/doc"
